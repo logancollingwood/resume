@@ -13,28 +13,45 @@ experience:
 - company: Blizzard Entertainment
   position: Software Engineer
   timeperiod: August 2018 - Present
-  description: "
-  Contributed full-stack code to support many projects while expanding and demonstrating how team ownership of full-stack implementations increase velocity and code quality. Specific work includes WeChat QR Code Payments, 3DSv1/2 design, and numerous 
-  backend payment integrations. Improved team process by increasing release velocity and reducing toil. Built frontend React apps to support payment testing and developer experience."
+  description: [
+    "Wrote full-stack code to enable the WeChat payment method, a QR code based payment method rendered in-game and in web shop using Node",
+    "Designed implementations of multiple payment flows for a new Angular frontend, which abstracts payments from web apps",
+    "Demonstrated how full-stack ownership of the payment experience increases project velocity",
+    "Built frontend React applications to support payment testing and developer experience",
+    "Designed and developed a new payment integration for players in Japan (prepaid cards, mobile billing, konbini)",
+    "Oversaw and lead team's movement to GitFlow for quicker and more efficient CI/CD. Included migrating multiple services to Docker and rewriting existing build/deploy/test pipelines using Jenkins 2"
+  ]
+  # Contributed full-stack code to support many projects while expanding and demonstrating how team ownership of full-stack implementations increase velocity and code quality. Specific work includes WeChat QR Code Payments, 3DSv1/2 design, and numerous 
+  # backend payment integrations. Improved team process by increasing release velocity and reducing toil. Built frontend React apps to support payment testing and developer experience."
 
 - company: Blizzard Entertainment
   position: Associate Software Engineer
   timeperiod: August 2017 - August 2018
-  description: "Contributed full-stack development for a PCI compliant credit card integration. Also contributed to 
-  SEPA, Qiwi, Yandex, Paysafecard, and mobile billing development. Gained experience leading projects through design and implementation."
+  description: [
+    "Contributed core backend development for a PCI compliant credit card integration",
+    "Assisted design and supported implementation of a redundant credit card provider using client-side javascript based encryption",
+    "Implemented core functionality for SEPA Direct Debit, Qiwi, Yandex, Paysafecard, Mobile billing, and numerous other payment providers using Java (Spring), and Oracle"
+  ]
+  #   "Contributed full-stack development for a PCI compliant credit card integration. Also contributed to 
+  # SEPA, Qiwi, Yandex, Paysafecard, and mobile billing development. Gained experience leading projects through design and implementation."
 
 - company: Blizzard Entertainment
   position: Associate Test Engineer
   timeperiod: July 2016 - August 2017
-  description: "Built a standardized integration test framework which utilizes Selenium to support automation of third party payments.
-  Began to migrate functionality of legacy backend systems to a new payments micro-service."
+  description: [
+    "Built a standardized integration test framework utilizing Selenium to support robust automation of third party payment providers",
+    "Migrated functionality from legacy backend systems to a unified payments micro-service"
+  ]
+  
+  #  "Built a standardized integration test framework which utilizes Selenium to support automation of third party payments.
+  # Began to migrate functionality of legacy backend systems to a new payments micro-service."
 
-- company: LEEPS Lab & Economic Science Institute
+- company: LEEPS Lab & Chapman University
   position: Senior Lab Programmer & Lab Programming Consultant
   timeperiod: February 2014 - June 2016
-  description: "Worked on developing client side browser based
-applications to simulate economic environments for
-research"
+  description: [
+    "Worked on developing multiplayer browser-based applications to simulate economic environments for research, primarily with websockets and Redis"
+  ]
 
 education:
 - degree: Bachelor of Science
@@ -59,8 +76,8 @@ knowledge: Proficient in full-stack development, primarily Java + PHP on the bac
 
 projects:
 - name: Smashlounge
-  platform: Laravel PHP + jQuery
-  description: An esports platform for supporting the competitive Super Smash Brothers Melee scene
+  platform: Laravel - MySQL
+  description: An esports platform for supporting the competitive Super Smash Brothers Melee scene. Focused on providing a centralized database and API to support third party developers.
   url: http://smashlounge.com
 
 # hobbies:
