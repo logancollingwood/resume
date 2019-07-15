@@ -4,7 +4,7 @@
       <div>
         <div class="headline">
           <span> {{ person.name.first }} {{ person.name.middle }} </span>
-          <span class="uppercase"> {{ person.name.last }} </span>
+          <span> {{ person.name.last }} </span>
         </div>
 
         <p>
@@ -209,7 +209,7 @@ export default Vue.component(name, getVueOptions(name));
 
 <style lang="less" scoped>
 
-@accent-color: #A800FA;
+@accent-color: #676767;
 
 .resume {
   display: flex;
@@ -266,7 +266,7 @@ export default Vue.component(name, getVueOptions(name));
   padding: 30px;
 
   height: 100%;
-  width: 65%;
+  width: 70%;
 }
 
 a {
@@ -341,7 +341,7 @@ a {
 
 .headline {
   color: white;
-  font-size: 1.3em;
+  font-size: 3.0em;
   font-weight: bold;
 }
 
@@ -440,8 +440,11 @@ a {
 }
 
 .section {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  &:first {
+    margin-top: 10px;
+  }
+  margin-bottom: 0px;
 }
 
 .lang-icon {

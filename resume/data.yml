@@ -1,92 +1,80 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Logan
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
-
-birth:
-  year: 1990
-  location: New York
+  last: Collingwood
+about: "Results-oriented professional with 5.5+ years of experience and a
+proven knowledge of Full-Stack software development, backend
+API design, and software testing. Aiming to leverage my skills to
+successfully fill the Full-Stack Software Engineer role."
+position: Software Engineer (Full-Stack)
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Blizzard Entertainment
+  position: Software Engineer
+  timeperiod: August 2018 - Present
+  description: "
+  Contributed full-stack code to support many projects while expanding and demonstrating how team ownership of full-stack implementations increase velocity and code quality. Specific work includes WeChat QR Code Payments, 3DSv1/2 design, and numerous 
+  backend payment integrations. Improved team process by increasing release velocity and reducing toil. Built frontend React apps to support payment testing and developer experience."
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Blizzard Entertainment
+  position: Associate Software Engineer
+  timeperiod: August 2017 - August 2018
+  description: "Contributed full-stack development for a PCI compliant credit card integration. Also contributed to 
+  SEPA, Qiwi, Yandex, Paysafecard, and mobile billing development. Gained experience leading projects through design and implementation."
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Blizzard Entertainment
+  position: Associate Test Engineer
+  timeperiod: July 2016 - August 2017
+  description: "Built a standardized integration test framework which utilizes Selenium to support automation of third party payments.
+  Began to migrate functionality of legacy backend systems to a new payments micro-service."
+
+- company: LEEPS Lab & Economic Science Institute
+  position: Senior Lab Programmer & Lab Programming Consultant
+  timeperiod: February 2014 - June 2016
+  description: "Worked on developing client side browser based
+applications to simulate economic environments for
+research"
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
 - degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+  timeperiod: September 2012 - June 2016
+  description: Major in Computer Science (3.7) Minor in Technology & Information Management, UC Santa Cruz, Santa Cruz, CA.
+  website: https://www.soe.ucsc.edu/
 
 # skill level goes 0 to 100
-skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+# skills:
+# - name: Java
+#   level: 90
+# - name: JavaScript (Typescript)
+#   level: 85
+# - name: Node.js
+#   level: 90
+# - name: Jenkins
+#   level: 90
+# - name: Software Testing
+#   leve: 95
+
+knowledge: Proficient in full-stack development, primarily Java + PHP on the backend and React + Typescript on the frontend 
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Smashlounge
+  platform: Laravel PHP + jQuery
+  description: An esports platform for supporting the competitive Super Smash Brothers Melee scene
+  url: http://smashlounge.com
 
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+# hobbies:
+# - name: Video Games
+#   iconClass: fa fa-gamepad
+#   # url: https://example.com
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: logan.collingwood@gmail.com
+  phone: 310.713.6787
+  street: 269 Quail Meadow
+  city: Irvine, CA
+  # website: johndoe.com
+  github: logancollingwood
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `

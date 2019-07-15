@@ -179,7 +179,6 @@
       </div>
     </div>
 
-    <img class="picture"/>
   </div>
 </template>
 
@@ -193,8 +192,8 @@ export default Vue.component(name, getVueOptions(name));
 </script>
 
 <style lang="less" scoped>
-@accent-color: #34495E;
-@banner-color: #42b883;
+@accent-color: #505050;
+@banner-color: #19519b;
 @banner-height: 120px;
 @picture-size: 120px;
 @picture-offset: 35px;
